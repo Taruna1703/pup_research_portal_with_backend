@@ -1,0 +1,46 @@
+.navbar-nav{
+	align-items: center;
+}
+.nav-item{
+	padding-left: 30px;
+	padding-right: 30px; 
+}
+.container{
+	margin-bottom: 20px;
+}
+#reg-no{
+	padding-top: 5px;
+}
+.form-row{
+	padding-top: 5px;
+}
+.col-padding{
+	padding-top: 5px;
+}
+#Permanent-Address,#Correspondance-Address{
+	margin-top: 10px;
+	border: solid rgb(167, 174, 186) 1px;
+	padding: 5px;
+}
+.Registration-Information,.Thesis-Details{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.search-form{
+	
+	align-items: center;
+	position: relative;
+	left: 400px;
+}
+@media print {
+  #print {
+    display: none;
+  }
+}
+
+/* for removing spinner
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}*/
