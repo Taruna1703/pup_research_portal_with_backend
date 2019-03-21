@@ -71,8 +71,10 @@
   function unlock_form(){
    if (this.checked) {
     $("input.defaultCheck2").removeAttr("disabled");
+    
   } else {
     $("input.defaultCheck2").attr("disabled", true);
+   
   }
   }
   $(function() {

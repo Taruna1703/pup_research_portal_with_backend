@@ -280,7 +280,7 @@
          </div>
          <div class="form-group col-md-6">
             <label for="exampleFormControlSelect1">JRF Holder</label>
-             <select class="form-control defaultCheck2" id="exampleFormControlSelect1" name="jrf_holder" disabled >
+             <select class="form-control defaultCheck2" id="exampleFormControlSelect1 select1" name="jrf_holder">
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
              </select>
@@ -289,7 +289,7 @@
       <div class="form-row">
          <div class="form-group col-md-6">
             <label for="Supervisor">Supervisor</label>
-            <input type="text" class="form-control defaultCheck2" id="Supervisor" placeholder="Supervisor" name="supervisor" disabled >
+            <input type="text" class="form-control defaultCheck2" id="Supervisor" placeholder="Supervisor" name="supervisor" disabled>
          </div>
          <div class="form-group col-md-6">
             <label for="Select Co-Supervisor">Select Co-Supervisor</label>
@@ -299,14 +299,14 @@
       <div class="form-row">
           <div class="form-group col-md-6">
             <label for="exampleFormControlSelect1">Mode of Phd</label>
-             <select class="form-control defaultCheck2" id="exampleFormControlSelect1" name="mode_of_phd" disabled>
+             <select class="form-control defaultCheck2" id="exampleFormControlSelect2 select2" name="mode_of_phd">
                 <option value="Regular">Regular</option>
                 <option value="Part Time">Part Time</option>
              </select>
           </div>
            <div class="form-group col-md-6">
             <label for="exampleFormControlSelect1">Is course work done?</label>
-             <select class="form-control defaultCheck2" id="exampleFormControlSelect1" name="course_work" disabled>
+             <select class="form-control defaultCheck2" id="exampleFormControlSelect3 select3" name="course_work">
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
              </select>
@@ -351,7 +351,7 @@
         <div class="form-group row">
              <label for="inputregno" class="col-sm-2 col-form-label">Registration Number</label>
              <div class="col-sm-10">
-                 <input type="text" name="reg_no" class="form-control" id="inputregno" placeholder="Registration Number" disabled>
+                 <input type="text" name="reg_no" class="form-control defaultCheck3" id="inputregno" placeholder="Registration Number" disabled>
              </div>
              <div class="invalid-feedback">
                 Please choose a Registration Number.
@@ -399,7 +399,7 @@
                  </div>   
                  <div class="col-6 col-padding">
                     <label for="Completed date">Completed date</label>
-                     <select class="form-control defaultCheck3" id="exampleFormControlSelect1" name="completed_date" disabled>
+                     <select class="form-control defaultCheck3" id="exampleFormControlSelect1" name="completed_date">
                       <option value="1980">1980</option>
                       <option value="1981">1981</option>
                       <option value="1982">1982</option>
@@ -454,7 +454,7 @@
         <div class="alert alert-dark" role="alert">
             <a href="#" class="alert-link">Thesis Details</a>
             <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" disabled>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
                     <label class="form-check-label" for="defaultCheck4">
                       Ready for filling Thesis Details?
                     </label>
@@ -465,7 +465,7 @@
         <div class="form-group row">
              <label for="inputregno" class="col-sm-2 col-form-label">Registration Number</label>
              <div class="col-sm-10">
-                 <input type="text" name="reg_no" class="form-control" id="inputregno" placeholder="Registration Number" disabled>
+                 <input type="text" name="reg_no" class="form-control defaultCheck4" id="inputregno" placeholder="Registration Number" disabled>
              </div>
              <div class="invalid-feedback">
                 Please choose a Registration Number.
